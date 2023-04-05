@@ -37,6 +37,9 @@ nav{
     border: none;
     background-color: var(--color-principal); /* aqui usamos la variable */
 }
+.btn-register:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .btn-login{
     padding: 12px 30px;
     background-color:transparent;
@@ -45,7 +48,9 @@ nav{
     font-size: 22px;
     filter: drop-shadow(4px -4px 24px rgba(94, 71, 71, 0.25));
 }
-
+.btn-login:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 .hero{
     padding: 3vh 5vw;
@@ -100,7 +105,7 @@ width: 100%;
 }
 
 .card-service{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 300px; /* 30% se hace mas cuadradas */
     padding: 20px;
     background-color: white;
@@ -135,6 +140,7 @@ width: 100%;
 iframe{
     display: block;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 footer{
@@ -142,13 +148,37 @@ footer{
     padding: 10vh 5vw;
     justify-content: space-between;
     align-items: center;
+    background-color: aqua;
 }
 
 .font-color-amarillo{
     color:var(--color-amarillo);
 }
 
-/* terminar de hacer las cards */
+/* Vector */
+
+.pie-de-pagina .gg-twitter{
+    color: #00C5C5;
+    position: absolute;
+   
+    align-items: flex-end;
+}
+.pie-de-pagina .gg-facebook{
+    color: #0076E2;
+    position: absolute;
+    right: 300px;
+    top: 2072.54px;
+    align-items: flex-end;
+}
+
+.pie-de-pagina .gg-youtube{
+    color: #E50000;
+    position: absolute;
+    right: 250px;
+    top: 2077.54px;
+    align-items: flex-end;
+}
+/* terminar de hacer las cards e iconos de redes ver error */
 
 
 
